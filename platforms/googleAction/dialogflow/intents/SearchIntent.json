@@ -1,0 +1,53 @@
+{
+	"name": "SearchIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "action",
+					"value": "$action",
+					"dataType": "@LIST_OF_ACTIONS"
+				},
+				{
+					"isList": false,
+					"name": "propertyType",
+					"value": "$propertyType",
+					"dataType": "@LIST_OF_PROPERTY_TYPES"
+				},
+				{
+					"isList": false,
+					"name": "locationType",
+					"value": "$locationType",
+					"dataType": "@LIST_OF_LOCATION_TYPES"
+				},
+				{
+					"isList": false,
+					"name": "city",
+					"value": "$city",
+					"dataType": "@sys.city"
+				},
+				{
+					"isList": false,
+					"name": "bedroomCount",
+					"value": "$bedroomCount",
+					"dataType": "@sys.number"
+				},
+				{
+					"isList": false,
+					"name": "bathroomCount",
+					"value": "$bathroomCount",
+					"dataType": "@sys.number"
+				},
+				{
+					"isList": false,
+					"name": "poolCount",
+					"value": "$poolCount",
+					"dataType": "@sys.number"
+				}
+			]
+		}
+	]
+}

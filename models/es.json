@@ -1,0 +1,154 @@
+{
+  "invocation": "bienes raices nicaragua",
+  "intents": [
+    {
+      "name": "BuyIntent",
+      "phrases": [
+        "comprar casa",
+        "quiero comprar una casa",
+        "deseo comprar una casa",
+        "tienes alguna casa en venta",
+        "estoy interesado en la compra de una casa",
+        "por casualidad tienes una casa en venta ahorita"
+      ]
+    },
+    {
+      "name": "RentIntent",
+      "phrases": [
+        "rentar casa",
+        "quiero rentar una casa",
+        "deseo rentar una casa",
+        "tienes alguna casa para rentar",
+        "estoy interesado en rentar una casa",
+        "por casualidad tienes una casa en renta ahorita"
+      ]
+    },
+    {
+      "name": "SearchIntent",
+      "phrases": [
+        "quiero {action} una {propertyType}",
+        "quiero {action} una {propertyType} en un {locationType}",
+        "quiero {action} una {propertyType} en un {locationType} en {city}",
+        "quiero {action} una {propertyType} en un {locationType} en {city} con {bedroomCount} cuartos",
+        "quiero {action} una {propertyType} en un {locationType} en {city} con {bedroomCount} cuartos {bathroomCount} baños",
+        "quiero {action} una {propertyType} en un {locationType} en {city} con {bedroomCount} cuartos {bathroomCount} baños y {poolCount} piscina"
+      ],
+      "inputs": [
+        {
+          "name": "action",
+          "type": {
+            "dialogflow": "LIST_OF_ACTIONS"
+          }
+        },
+        {
+          "name": "propertyType",
+          "type": {
+            "dialogflow": "LIST_OF_PROPERTY_TYPES"
+          }
+        },
+        {
+          "name": "locationType",
+          "type": {
+            "dialogflow": "LIST_OF_LOCATION_TYPES"
+          }
+        },
+        {
+          "name": "city",
+          "type": {
+            "dialogflow": "@sys.city"
+          }
+        },
+        {
+          "name": "bedroomCount",
+          "type": {
+            "dialogflow": "@sys.number"
+          }
+        },
+        {
+          "name": "bathroomCount",
+          "type": {
+            "dialogflow": "@sys.number"
+          }
+        },
+        {
+          "name": "poolCount",
+          "type": {
+            "dialogflow": "@sys.number"
+          }
+        }
+      ]
+    }
+  ],
+  "inputTypes": [
+    {
+      "name": "LIST_OF_LOCATION_TYPES",
+      "values": [
+        {
+          "value": "residencial"
+        },
+        {
+          "value": "condominio"
+        },
+        {
+          "value": "barrio"
+        }
+      ]
+    },
+    {
+      "name": "LIST_OF_PROPERTY_TYPES",
+      "values": [
+        {
+          "value": "casa"
+        },
+        {
+          "value": "terreno"
+        },
+        {
+          "value": "edificio"
+        },
+        {
+          "value": "negocio",
+          "synonyms": [
+            "bodega",
+            "salón",
+            "módulo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LIST_OF_ACTIONS",
+      "values": [
+        {
+          "value": "comprar"
+        },
+        {
+          "value": "rentar",
+          "synonyms": [
+            "alquilar"
+          ]
+        }
+      ]
+    }
+  ],
+  "dialogflow": {
+    "intents": [
+      {
+        "name": "DefaultFallbackIntent",
+        "auto": true,
+        "webhookUsed": true,
+        "fallbackIntent": true
+      },
+      {
+        "name": "WelcomeIntent",
+        "auto": true,
+        "webhookUsed": true,
+        "events": [
+          {
+            "name": "GOOGLE_ASSISTANT_WELCOME"
+          }
+        ]
+      }
+    ]
+  }
+}

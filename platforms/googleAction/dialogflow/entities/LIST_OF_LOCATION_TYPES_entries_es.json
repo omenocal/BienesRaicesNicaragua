@@ -1,0 +1,20 @@
+[
+	{
+		"value": "residencial",
+		"synonyms": [
+			"residencial"
+		]
+	},
+	{
+		"value": "condominio",
+		"synonyms": [
+			"condominio"
+		]
+	},
+	{
+		"value": "barrio",
+		"synonyms": [
+			"barrio"
+		]
+	}
+]

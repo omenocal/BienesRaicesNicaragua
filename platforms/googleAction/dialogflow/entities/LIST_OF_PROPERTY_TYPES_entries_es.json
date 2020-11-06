@@ -1,0 +1,29 @@
+[
+	{
+		"value": "casa",
+		"synonyms": [
+			"casa"
+		]
+	},
+	{
+		"value": "terreno",
+		"synonyms": [
+			"terreno"
+		]
+	},
+	{
+		"value": "edificio",
+		"synonyms": [
+			"edificio"
+		]
+	},
+	{
+		"value": "negocio",
+		"synonyms": [
+			"negocio",
+			"bodega",
+			"salón",
+			"módulo"
+		]
+	}
+]

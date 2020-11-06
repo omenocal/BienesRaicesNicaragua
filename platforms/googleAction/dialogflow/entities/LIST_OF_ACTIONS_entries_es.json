@@ -1,0 +1,15 @@
+[
+	{
+		"value": "comprar",
+		"synonyms": [
+			"comprar"
+		]
+	},
+	{
+		"value": "rentar",
+		"synonyms": [
+			"rentar",
+			"alquilar"
+		]
+	}
+]

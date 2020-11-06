@@ -1,0 +1,320 @@
+[
+	{
+		"data": [
+			{
+				"text": "quiero ",
+				"userDefined": false
+			},
+			{
+				"text": "action",
+				"userDefined": true,
+				"alias": "action",
+				"meta": "@LIST_OF_ACTIONS"
+			},
+			{
+				"text": " una ",
+				"userDefined": false
+			},
+			{
+				"text": "propertyType",
+				"userDefined": true,
+				"alias": "propertyType",
+				"meta": "@LIST_OF_PROPERTY_TYPES"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "quiero ",
+				"userDefined": false
+			},
+			{
+				"text": "action",
+				"userDefined": true,
+				"alias": "action",
+				"meta": "@LIST_OF_ACTIONS"
+			},
+			{
+				"text": " una ",
+				"userDefined": false
+			},
+			{
+				"text": "propertyType",
+				"userDefined": true,
+				"alias": "propertyType",
+				"meta": "@LIST_OF_PROPERTY_TYPES"
+			},
+			{
+				"text": " en un ",
+				"userDefined": false
+			},
+			{
+				"text": "locationType",
+				"userDefined": true,
+				"alias": "locationType",
+				"meta": "@LIST_OF_LOCATION_TYPES"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "quiero ",
+				"userDefined": false
+			},
+			{
+				"text": "action",
+				"userDefined": true,
+				"alias": "action",
+				"meta": "@LIST_OF_ACTIONS"
+			},
+			{
+				"text": " una ",
+				"userDefined": false
+			},
+			{
+				"text": "propertyType",
+				"userDefined": true,
+				"alias": "propertyType",
+				"meta": "@LIST_OF_PROPERTY_TYPES"
+			},
+			{
+				"text": " en un ",
+				"userDefined": false
+			},
+			{
+				"text": "locationType",
+				"userDefined": true,
+				"alias": "locationType",
+				"meta": "@LIST_OF_LOCATION_TYPES"
+			},
+			{
+				"text": " en ",
+				"userDefined": false
+			},
+			{
+				"text": "city",
+				"userDefined": true,
+				"alias": "city",
+				"meta": "@sys.city"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "quiero ",
+				"userDefined": false
+			},
+			{
+				"text": "action",
+				"userDefined": true,
+				"alias": "action",
+				"meta": "@LIST_OF_ACTIONS"
+			},
+			{
+				"text": " una ",
+				"userDefined": false
+			},
+			{
+				"text": "propertyType",
+				"userDefined": true,
+				"alias": "propertyType",
+				"meta": "@LIST_OF_PROPERTY_TYPES"
+			},
+			{
+				"text": " en un ",
+				"userDefined": false
+			},
+			{
+				"text": "locationType",
+				"userDefined": true,
+				"alias": "locationType",
+				"meta": "@LIST_OF_LOCATION_TYPES"
+			},
+			{
+				"text": " en ",
+				"userDefined": false
+			},
+			{
+				"text": "city",
+				"userDefined": true,
+				"alias": "city",
+				"meta": "@sys.city"
+			},
+			{
+				"text": " con ",
+				"userDefined": false
+			},
+			{
+				"text": "bedroomCount",
+				"userDefined": true,
+				"alias": "bedroomCount",
+				"meta": "@sys.number"
+			},
+			{
+				"text": " cuartos",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "quiero ",
+				"userDefined": false
+			},
+			{
+				"text": "action",
+				"userDefined": true,
+				"alias": "action",
+				"meta": "@LIST_OF_ACTIONS"
+			},
+			{
+				"text": " una ",
+				"userDefined": false
+			},
+			{
+				"text": "propertyType",
+				"userDefined": true,
+				"alias": "propertyType",
+				"meta": "@LIST_OF_PROPERTY_TYPES"
+			},
+			{
+				"text": " en un ",
+				"userDefined": false
+			},
+			{
+				"text": "locationType",
+				"userDefined": true,
+				"alias": "locationType",
+				"meta": "@LIST_OF_LOCATION_TYPES"
+			},
+			{
+				"text": " en ",
+				"userDefined": false
+			},
+			{
+				"text": "city",
+				"userDefined": true,
+				"alias": "city",
+				"meta": "@sys.city"
+			},
+			{
+				"text": " con ",
+				"userDefined": false
+			},
+			{
+				"text": "bedroomCount",
+				"userDefined": true,
+				"alias": "bedroomCount",
+				"meta": "@sys.number"
+			},
+			{
+				"text": " cuartos ",
+				"userDefined": false
+			},
+			{
+				"text": "bathroomCount",
+				"userDefined": true,
+				"alias": "bathroomCount",
+				"meta": "@sys.number"
+			},
+			{
+				"text": " baños",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "quiero ",
+				"userDefined": false
+			},
+			{
+				"text": "action",
+				"userDefined": true,
+				"alias": "action",
+				"meta": "@LIST_OF_ACTIONS"
+			},
+			{
+				"text": " una ",
+				"userDefined": false
+			},
+			{
+				"text": "propertyType",
+				"userDefined": true,
+				"alias": "propertyType",
+				"meta": "@LIST_OF_PROPERTY_TYPES"
+			},
+			{
+				"text": " en un ",
+				"userDefined": false
+			},
+			{
+				"text": "locationType",
+				"userDefined": true,
+				"alias": "locationType",
+				"meta": "@LIST_OF_LOCATION_TYPES"
+			},
+			{
+				"text": " en ",
+				"userDefined": false
+			},
+			{
+				"text": "city",
+				"userDefined": true,
+				"alias": "city",
+				"meta": "@sys.city"
+			},
+			{
+				"text": " con ",
+				"userDefined": false
+			},
+			{
+				"text": "bedroomCount",
+				"userDefined": true,
+				"alias": "bedroomCount",
+				"meta": "@sys.number"
+			},
+			{
+				"text": " cuartos ",
+				"userDefined": false
+			},
+			{
+				"text": "bathroomCount",
+				"userDefined": true,
+				"alias": "bathroomCount",
+				"meta": "@sys.number"
+			},
+			{
+				"text": " baños y ",
+				"userDefined": false
+			},
+			{
+				"text": "poolCount",
+				"userDefined": true,
+				"alias": "poolCount",
+				"meta": "@sys.number"
+			},
+			{
+				"text": " piscina",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]
